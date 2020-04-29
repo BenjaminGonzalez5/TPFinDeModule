@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".TPActivity" />
         <activity android:name=".PersonnesActivity" />
         <activity android:name=".PersonnesDetailsActivity" />
         <activity android:name=".CategoriesActivity" />

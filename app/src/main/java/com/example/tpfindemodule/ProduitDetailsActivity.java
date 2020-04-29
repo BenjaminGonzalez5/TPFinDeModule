@@ -2,6 +2,7 @@ package com.example.tpfindemodule;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,7 +14,7 @@ public class ProduitDetailsActivity extends TPActivity {
 
     public static void display(TPActivity activity, Produit produit) {
         Intent intent = new Intent(activity, ProduitDetailsActivity.class);
-        intent.putExtra("Produit", produit);
+        intent.putExtra("Produit", (Parcelable) produit);
         activity.startActivity(intent);
     }
 

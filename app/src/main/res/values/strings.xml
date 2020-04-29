@@ -2,4 +2,6 @@
     <string name="app_name">TPFinDeModule</string>
     <string name="name">Nom</string>
     <string name="TP">TP</string>
+    <string name="TexteZone1">Zone 1</string>
+    <string name="TexteZone2">Zone 2</string>
 </resources>

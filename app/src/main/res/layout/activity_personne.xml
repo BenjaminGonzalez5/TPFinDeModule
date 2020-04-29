@@ -21,16 +21,26 @@
             android:layout_gravity="center" />
 
         <TextView
-            android:id="@+id/textViewPersonneName"
+            android:id="@+id/textViewPersonneNom"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:text="@string/name"
+            android:text="@string/Nom"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:gravity="center"
             />
 
+        <TextView
+            android:id="@+id/textViewPersonnePrenom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/Prenom"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
 
         <TextView
             android:id="@+id/textViewPersonneEmail"
@@ -38,7 +48,18 @@
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:maxLines="2"
-            android:text="@string/name"
+            android:text="@string/Email"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textViewPersonneWebsite"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:maxLines="2"
+            android:text="@string/Website"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:gravity="center" />

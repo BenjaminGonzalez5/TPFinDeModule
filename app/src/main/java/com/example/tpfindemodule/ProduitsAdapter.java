@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.tpfindemodule.models.Produit;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;

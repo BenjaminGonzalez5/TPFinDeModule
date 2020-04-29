@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import com.example.tpfindemodule.models.Categorie;
 
 import java.util.ArrayList;
-import java.util.List;
 
 class CategoriesAdapter extends ArrayAdapter<Categorie> {
 

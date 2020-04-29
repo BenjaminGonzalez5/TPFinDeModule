@@ -9,7 +9,6 @@ import android.widget.ListView;
 import androidx.annotation.Nullable;
 
 import com.example.tpfindemodule.models.Categorie;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

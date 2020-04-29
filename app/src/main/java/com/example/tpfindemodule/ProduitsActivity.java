@@ -16,14 +16,14 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-class ProductActivity extends TPActivity {
+public class ProduitsActivity extends TPActivity {
     private Categorie categroie;
     private ProduitsAdapter produitsAdapter;
 
     private ArrayList<Produit> produits = new ArrayList<>();
 
     public static void display(TPActivity activity, Categorie category) {
-        Intent intent = new Intent(activity, ProductActivity.class);
+        Intent intent = new Intent(activity, ProduitsActivity.class);
         intent.putExtra("category", (Parcelable) category);
         activity.startActivity(intent);
     }
@@ -41,7 +41,7 @@ class ProductActivity extends TPActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                ProduitDetailsActivity.display(ProductActivity.this, produits.get(position));
+                ProduitDetailsActivity.display(ProduitsActivity.this, produits.get(position));
             }
         });
 
